@@ -31,9 +31,6 @@ def main(opc):
     if(opc == 5):
         print("Gracias por usar nuestra calculadora")
         quit()
-    if(opc !=5):
-        print("El número que ingresaste no esta registrado")
-        quit()
     num1 = int(input("Dame un número: "))
     num2 = int(input("Dame otro número: "))
     if (opc == 1):
